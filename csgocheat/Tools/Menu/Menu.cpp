@@ -1368,7 +1368,8 @@ void DrawMenu()
 		}
 		else
 		{
-			Unhook();
+			SetupMenu();
+			firsttime = false;
 		}
 	}
 
